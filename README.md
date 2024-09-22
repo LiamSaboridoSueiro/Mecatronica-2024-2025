@@ -2,7 +2,7 @@
 ### Bitácora de Mecatrónica
 -------------------------------------------------------------
 ## Primer día
-Hoy el señor son profesor nos ha comentado que tenemos que hacer un proyecto que vale el **80%** de la asignatura. Como nos dejó libertad creativa lo primero que se me ocurrió fue hacer algo que pueda ayudar a personas con problemas con discapacidades. Para ello lo primero que hice fue hablar con unos amigos que trabajan en centros sociales que ayudan a estas personas a tener una vida normal. Al ponerme en contacto con ellos les pregunté dudas del día a día para ver si se me ocurría algo. Mis ideas principales para el grupo fueron:
+Hoy el señor don profesor nos ha comentado que tenemos que hacer un proyecto que vale el **80%** de la asignatura. Como nos dejó libertad creativa lo primero que se me ocurrió fue hacer algo que pueda ayudar a personas con problemas con discapacidades. Para ello lo primero que hice fue hablar con unos amigos que trabajan en centros sociales que ayudan a estas personas a tener una vida normal. Al ponerme en contacto con ellos les pregunté dudas del día a día para ver si se me ocurría algo. Mis ideas principales para el grupo fueron:
 
 - Cuchara antitemblores
 - Guantes traductores de lengua de signos
