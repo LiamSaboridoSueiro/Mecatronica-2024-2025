@@ -18,7 +18,7 @@ Tras debatirlo con mis compañeros no vimos mucha viabilidad para poder seguir a
 
 
 ## L4: Tutorial Inkscape
-Hoy en el cole hemos visto como utilizar cosas básicas de Inkscape y nos ha propuesto unos retos para sacar nuestro lado más creativo!
+Hoy en clase hemos visto como utilizar cosas básicas de Inkscape y nos ha propuesto unos retos para sacar nuestro lado más creativo!
 
 ### Reto 1
 <div align="center">
@@ -29,3 +29,21 @@ Hoy en el cole hemos visto como utilizar cosas básicas de Inkscape y nos ha pro
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b4027637-2a07-4311-be16-e0aa1d9ba0a9" alt="imagen">
 </div>
+
+## L5: Técnicas avanzadas en Inkscape
+
+Hoy le dimos caña a Inkscape con nuevas técnicas para hacer dibujos más precisos y jugar con geometría constructiva. También practicamos un poco el calcado vectorial.
+
+### Dibujo con precisión
+- **Ajustes (snap)**: Aprendí a conectar líneas de manera precisa, como de extremo a extremo, de punto medio a punto medio y de centro a centro. Todo mucho más limpio y exacto.
+- **Dimensiones y guías**: Usamos guías y líneas auxiliares para alinear las formas con más precisión, lo cual fue súper útil.
+- **Tangentes y perpendiculares**: Practicamos cómo crear líneas tangentes y perpendiculares, algo que no es tan obvio pero ayuda un montón para figuras complejas.
+
+### Geometría constructiva
+- **Operaciones booleanas**: Esto fue muy guay, combinamos formas con operaciones como la unión, intersección y diferencia. Hice cosas como:
+  - Un tornillo plano (gracias a las líneas auxiliares).
+  - Las piezas del Tetris (usando cuadrados y la técnica de unión).
+  - Creé una luna menguante restando dos círculos y hasta un escudo combinando intersecciones.
+
+### Calcado vectorial
+- **Vectorización manual**: Aquí calqué un robot usando la herramienta de pluma. La idea era poner una imagen en el fondo y trazar los contornos encima. Fue más fácil de lo que pensaba y quedó bastante chulo.
