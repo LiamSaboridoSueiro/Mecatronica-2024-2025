@@ -20,12 +20,14 @@ Tras debatirlo con mis compañeros no vimos mucha viabilidad para poder seguir a
 ## L4: Tutorial Inkscape
 Hoy en clase hemos visto como utilizar cosas básicas de Inkscape y nos ha propuesto unos retos para sacar nuestro lado más creativo!
 
-### Reto 1
+
+### Retos completados:
+- **Reto 1**: 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/592dc438-32d7-4425-8b8e-dfb0d99c9c58" alt="imagen">
 </div>
 
-### Reto 6
+- **Reto 6**: 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/b4027637-2a07-4311-be16-e0aa1d9ba0a9" alt="imagen">
 </div>
@@ -47,3 +49,29 @@ Hoy le dimos caña a Inkscape con nuevas técnicas para hacer dibujos más preci
 
 ### Calcado vectorial
 - **Vectorización manual**: Aquí calqué un robot usando la herramienta de pluma. La idea era poner una imagen en el fondo y trazar los contornos encima. Fue más fácil de lo que pensaba y quedó bastante chulo.
+
+
+## L6: Introducción al diseño 3D con FreeCAD
+
+Hoy nos iniciamos en el mundo del diseño 3D utilizando FreeCAD, un programa libre y muy versátil. Aquí va un resumen rápido de lo que vimos:
+
+### Configuración y navegación básica en FreeCAD
+- **Configuración inicial**: Configuramos FreeCAD para usar el sistema de navegación de Blender y organizamos los paneles para mayor comodidad (Tree View, Task, Property).
+- **Navegación 3D**: Aprendí a rotar, hacer zoom, y mover la cámara de manera eficiente. También exploramos cómo ajustar vistas (perspectiva, ortográfica) y seleccionar estilos de visualización.
+
+### Geometría Constructiva
+- **Objetos primitivos**: Creé cubos y cilindros como "Hola mundo" del 3D.
+- **Operaciones booleanas**: Hicimos operaciones de diferencia para crear taladros en piezas planas y de unión para fusionar objetos. Esto es clave para modelar estructuras más complejas.
+- **Referencias y clonación**: Usamos referencias para crear taladros vinculados, lo que facilita hacer cambios en masa a todos los objetos clonados.
+
+### Imprimir en 3D
+- **Exportar a STL**: Preparé una pieza para impresión exportando el diseño en formato STL.
+- **Laminado e impresión**: Abrimos el STL en un laminador como Cura y obtuvimos el archivo .gcode para la impresora 3D.
+
+### Retos completados:
+- **Reto 6**:
+![Screenshot from 2024-09-30 11-47-09](https://github.com/user-attachments/assets/64e178b4-2999-443b-81a0-f268a0d74d03)
+
+Adjunto fichero en la carpeta de documentos.
+
+
