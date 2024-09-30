@@ -72,6 +72,6 @@ Hoy nos iniciamos en el mundo del diseño 3D utilizando FreeCAD, un programa lib
 - **Reto 6**:
 ![Screenshot from 2024-09-30 11-47-09](https://github.com/user-attachments/assets/64e178b4-2999-443b-81a0-f268a0d74d03)
 
-Adjunto fichero en la carpeta de documentos.
+Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Mecatronica-2024-2025/blob/main/Docs/L6%20FreeCad/anillodemoniaco.FCStd) relacionados con el diseño 3D de la sesión.
 
 
