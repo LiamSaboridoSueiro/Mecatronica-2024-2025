@@ -74,4 +74,32 @@ Hoy nos iniciamos en el mundo del diseño 3D utilizando FreeCAD, un programa lib
 
 Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Mecatronica-2024-2025/blob/main/Docs/L6%20FreeCad/anillodemoniaco.FCStd) relacionados con el diseño 3D de la sesión.
 
+## L7: Operaciones de extrusión y bocetos en FreeCAD
+
+En esta sesión nos metimos de lleno en las operaciones básicas de FreeCAD con bocetos 2D para crear piezas 3D. Lo más importante que vimos fue cómo manejar las restricciones de boceto para crear diseños de forma precisa.
+
+### Operaciones fundamentales con croquis
+- **Extrusión**: Aprendimos a estirar un boceto 2D para convertirlo en un sólido 3D.
+- **Revolución**: Usamos la técnica de revolución para crear objetos girando un boceto alrededor de un eje (por ejemplo, un cono).
+- **Vaciado**: Eliminamos material de un sólido utilizando un croquis y la operación de vaciado.
+
+### Creación de croquis en FreeCAD
+- **Importar SVG**: Dibujamos una figura en Inkscape, la importamos a FreeCAD y la extruimos para obtener un objeto sólido 3D.
+- **Part y Draft**: También vimos cómo usar formas predefinidas y cómo dibujar figuras en 2D directamente en FreeCAD.
+- **Sketcher**: Con Sketcher, aplicamos restricciones de boceto para ajustar líneas, distancias, y hacer los croquis mucho más precisos.
+
+### Diseñando con restricciones de boceto
+- **Ficha de casino**: Diseñamos una ficha de casino simple aplicando restricciones de diámetro y coincidencia en el croquis para que todo quede bien ajustado.
+- **Base rectangular con taladro**: Creamos una base rectangular y un taladro en el centro usando restricciones de simetría e igualdad.
+
+### Part Design: Operaciones encadenadas
+- **Tope con tornillo y tuerca**: Utilizamos operaciones de extrusión y vaciado para crear un diseño más complejo, añadiendo tanto el cuerpo como los agujeros para tornillo y tuerca.
+
+### Retos completados:
+- **Reto 4**: Soporte para móvil.
+
+![image](https://github.com/user-attachments/assets/0f79d485-05ed-4942-b8e0-f29bca863885)
+
+Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Mecatronica-2024-2025/blob/main/Docs/L7%20FreeCad/retos.FCStd) relacionados con los retos de esta sesión.
+
 
