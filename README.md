@@ -100,6 +100,6 @@ En esta sesión nos metimos de lleno en las operaciones básicas de FreeCAD con 
 
 ![image](https://github.com/user-attachments/assets/0f79d485-05ed-4942-b8e0-f29bca863885)
 
-Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Mecatronica-2024-2025/blob/main/Docs/L7%20FreeCad/retos.FCStd) relacionados con los retos de esta sesión.
+Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Mecatronica-2024-2025/tree/main/Docs/L7Dise%C3%B1o3D) relacionados con los retos de esta sesión.
 
 
