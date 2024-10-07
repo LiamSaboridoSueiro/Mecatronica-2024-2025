@@ -25,6 +25,7 @@
 
 <details>
 <summary>Proyecto Final</summary>
+ 
 - [Primer día](#primer-día)
 - [Avanzando en el proyecto final](#avanzando-en-el-proyecto-final)
   * [Componentes y Conceptos que He Considerado](#componentes-y-conceptos-que-he-considerado)
