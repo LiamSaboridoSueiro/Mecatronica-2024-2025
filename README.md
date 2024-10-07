@@ -137,7 +137,7 @@ Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Me
 
  He estado desarrollando el robot Kantam, en principio se moverá con orugas y tendrá una funcionalidad especial: ¡puede disparar un puño desde su brazo usando un mecanismo de resorte! Mi idea es que sea radiocontrolado, por lo que estoy integrando componentes para poder controlar tanto el movimiento como el disparo de manera remota. He estado explorando varias opciones para hacer realidad tanto el disparo del puño como la movilidad del robot.
 
-### Componentes y Conceptos que He Considerado
+### Componentes y Conceptos que he considerado
 
 - **Microcontrolador (ESP32)**  
    La ESP32 es el cerebro de mi robot, ya que me permite la conexión inalámbrica (por Bluetooth o WiFi) y el control de los actuadores. Es perfecto para mi proyecto porque soporta comunicación remota y es compatible con varios tipos de motores y actuadores.
