@@ -1,6 +1,36 @@
 # Mecatronica-2024-2025
 ### Bitácora de Mecatrónica
 -------------------------------------------------------------
+## Índice de prácticas
+<details>
+<summary>Clases</summary>
+
+- [L4: Tutorial Inkscape](#l4-tutorial-inkscape)
+  * [Retos completados](#retos-completados)
+- [L5: Técnicas avanzadas en Inkscape](#l5-técnicas-avanzadas-en-inkscape)
+  * [Dibujo con precisión](#dibujo-con-precisión)
+  * [Geometría constructiva](#geometría-constructiva)
+  * [Calcado vectorial](#calcado-vectorial)
+- [L6: Introducción al diseño 3D con FreeCAD](#l6-introducción-al-diseño-3d-con-freecad)
+  * [Configuración y navegación básica en FreeCAD](#configuración-y-navegación-básica-en-freecad)
+  * [Geometría Constructiva](#geometría-constructiva-1)
+  * [Imprimir en 3D](#imprimir-en-3d)
+- [L7: Operaciones de extrusión y bocetos en FreeCAD](#l7-operaciones-de-extrusión-y-bocetos-en-freecad)
+  * [Operaciones fundamentales con croquis](#operaciones-fundamentales-con-croquis)
+  * [Creación de croquis en FreeCAD](#creación-de-croquis-en-freecad)
+  * [Diseñando con restricciones de boceto](#diseñando-con-restricciones-de-boceto)
+  * [Part Design: Operaciones encadenadas](#part-design-operaciones-encadenadas)
+
+</details>
+
+<details>
+<summary>Proyecto Final</summary>
+- [Primer día](#primer-día)
+- [Avanzando en el proyecto final](#avanzando-en-el-proyecto-final)
+  * [Componentes y Conceptos que He Considerado](#componentes-y-conceptos-que-he-considerado)
+
+</details>
+
 ## Primer día
 Hoy el señor don profesor nos ha comentado que tenemos que hacer un proyecto que vale el **80%** de la asignatura. Como nos dejó libertad creativa lo primero que se me ocurrió fue hacer algo que pueda ayudar a personas con problemas con discapacidades. Para ello lo primero que hice fue hablar con unos amigos que trabajan en centros sociales que ayudan a estas personas a tener una vida normal. Al ponerme en contacto con ellos les pregunté dudas del día a día para ver si se me ocurría algo. Mis ideas principales para el grupo fueron:
 
@@ -101,5 +131,37 @@ En esta sesión nos metimos de lleno en las operaciones básicas de FreeCAD con 
 ![image](https://github.com/user-attachments/assets/0f79d485-05ed-4942-b8e0-f29bca863885)
 
 Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Mecatronica-2024-2025/tree/main/Docs/L7Dise%C3%B1o3D) relacionados con los retos de esta sesión.
+
+## Avanzando en el proyecto final!
+
+ He estado desarrollando el robot Kantam, en principio se moverá con orugas y tendrá una funcionalidad especial: ¡puede disparar un puño desde su brazo usando un mecanismo de resorte! Mi idea es que sea radiocontrolado, por lo que estoy integrando componentes para poder controlar tanto el movimiento como el disparo de manera remota. He estado explorando varias opciones para hacer realidad tanto el disparo del puño como la movilidad del robot.
+
+### Componentes y Conceptos que He Considerado
+
+- **Microcontrolador (ESP32)**  
+   La ESP32 es el cerebro de mi robot, ya que me permite la conexión inalámbrica (por Bluetooth o WiFi) y el control de los actuadores. Es perfecto para mi proyecto porque soporta comunicación remota y es compatible con varios tipos de motores y actuadores.
+
+- **Sistema de Desplazamiento (Orugas de Tanque)**  
+   - **Motores DC con reductora**: Estoy considerando motores N20 o TT Motors para mover las orugas del robot. Estos motores son compactos y proporcionan el balance ideal entre tamaño y torque, que es justo lo que necesito para que el robot se mueva tanto en terrenos planos como irregulares.
+   - **Driver de Motor (L298N o similar)**: Necesito un driver para controlar los motores desde la ESP32, ya que la placa por sí sola no puede manejar la corriente que requieren los motores.
+
+- **Mecanismo de Disparo del Puño**  
+   - **Resorte o muelle**: Estoy usando un resorte helicoidal comprimido dentro del brazo para almacenar la energía que dispara el puño.
+   - **Mecanismo de retención**: Incluye un gancho o pestillo que mantiene el puño en posición hasta que active el disparo.
+
+- **Actuadores para Activar el Gatillo del Muelle**  
+   - **Micro Servo (SG90 o MG90S)**: Inicialmente, pensé en un micro servo tanto para mover el brazo como para activar el mecanismo de retención del puño usando una leva o engranaje.
+   - **Alternativas al Servo**:
+     - **Solenoide Lineal**: También consideré un solenoide lineal, que proporciona un movimiento rápido y directo para liberar el gatillo y disparar el puño, aunque requiere bastante corriente y espacio en el brazo.
+     - **Sistema de Tensión (Cable Bowden)**: Si el espacio en el brazo resulta muy limitado, podría usar un cable Bowden para transmitir el movimiento desde un actuador colocado en otra parte del robot.
+
+- **Alimentación**  
+   - **18650 Battery Shield**: Pensé en usar una batería 18650 con un shield, que proporciona una salida de 5V a través de un puerto USB. Esto es ideal para alimentar la ESP32 y simplificar el sistema de alimentación.
+   - **Capacidad de la batería**: Un power bank de entre 2000mAh y 5000mAh o una batería 18650 debería ser suficiente para mantener funcionando el microcontrolador, los motores y el sistema de disparo.
+
+  De momento estas son mis investigaciones respecto a los componentes que estoy pensando en usar. Ahora solo falta pedirlos y empezar a hacer pruebas!
+
+
+
 
 
