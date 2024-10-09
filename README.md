@@ -182,7 +182,7 @@ Primero, nos centramos en piezas sencillas como rectángulos y formas en T. Usam
 Después, trabajamos en figuras como un triángulo rectángulo, donde aprendimos a usar restricciones angulares para manejar ángulos. Esto nos permitió añadir cotas angulares y trabajar con formas en diferentes orientaciones.
 
 ### Ejercicios
-Para cerrar, hicimos varios ejercicios para reforzar estas técnicas y practicar el acotado de piezas en 2D. La idea es mejorar nuestra precisión en el diseño y poder exportar planos listos para impresión o documentación.
+Para cerrar, hicimos varios ejercicios para reforzar estas técnicas y practicar el acotado de piezas en 2D. La idea es mejorar nuestra precisión en el diseño y poder exportar planos listos para impresión o documentación. Una pena que en esta sesión no hubiera retos...
 
 
 
