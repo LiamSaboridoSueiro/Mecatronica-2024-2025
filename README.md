@@ -20,6 +20,10 @@
   * [Creación de croquis en FreeCAD](#creación-de-croquis-en-freecad)
   * [Diseñando con restricciones de boceto](#diseñando-con-restricciones-de-boceto)
   * [Part Design: Operaciones encadenadas](#part-design-operaciones-encadenadas)
+ - [L8: Diseño 2D en FreeCAD](#l8-diseño-2d-en-freecad)
+  * [Dibujos con líneas verticales y horizontales](#dibujos-con-líneas-verticales-y-horizontales)
+  * [Dibujos con líneas en diferentes orientaciones](#dibujos-con-líneas-en-diferentes-orientaciones)
+  * [Ejercicios](#ejercicios)
 
 </details>
 
@@ -161,6 +165,24 @@ Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Me
    - **Capacidad de la batería**: Un power bank de entre 2000mAh y 5000mAh o una batería 18650 debería ser suficiente para mantener funcionando el microcontrolador, los motores y el sistema de disparo.
 
   De momento estas son mis investigaciones respecto a los componentes que estoy pensando en usar. Ahora solo falta pedirlos y empezar a hacer pruebas!
+
+## L8: Diseño 2D en FreeCAD
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ca852e12-8c00-4b89-a6ab-febe7dc8cab8" alt="imagen">
+</div>
+
+
+Hoy estuvimos practicando el diseño en 2D en FreeCAD. Empezamos con dibujos básicos usando solo líneas verticales y horizontales, y luego pasamos a crear figuras más complejas con diferentes orientaciones y ángulos.
+
+### Dibujos con líneas verticales y horizontales
+Primero, nos centramos en piezas sencillas como rectángulos y formas en T. Usamos la herramienta de multi-línea para dibujar contornos y aplicamos restricciones automáticas de horizontalidad y verticalidad. Luego creamos vistas en TechDraw para agregar cotas y exportar planos en SVG.
+
+### Dibujos con líneas en diferentes orientaciones
+Después, trabajamos en figuras como un triángulo rectángulo, donde aprendimos a usar restricciones angulares para manejar ángulos. Esto nos permitió añadir cotas angulares y trabajar con formas en diferentes orientaciones.
+
+### Ejercicios
+Para cerrar, hicimos varios ejercicios para reforzar estas técnicas y practicar el acotado de piezas en 2D. La idea es mejorar nuestra precisión en el diseño y poder exportar planos listos para impresión o documentación.
 
 
 
