@@ -21,9 +21,9 @@
   * [Diseñando con restricciones de boceto](#diseñando-con-restricciones-de-boceto)
   * [Part Design: Operaciones encadenadas](#part-design-operaciones-encadenadas)
  - [L8: Diseño 2D en FreeCAD](#l8-diseño-2d-en-freecad)
-  * [Dibujos con líneas verticales y horizontales](#dibujos-con-líneas-verticales-y-horizontales)
-  * [Dibujos con líneas en diferentes orientaciones](#dibujos-con-líneas-en-diferentes-orientaciones)
-  * [Ejercicios](#ejercicios)
+   * [Dibujos con líneas verticales y horizontales](#dibujos-con-líneas-verticales-y-horizontales)
+   * [Dibujos con líneas en diferentes orientaciones](#dibujos-con-líneas-en-diferentes-orientaciones)
+   * [Ejercicios](#ejercicios)
 
 </details>
 
