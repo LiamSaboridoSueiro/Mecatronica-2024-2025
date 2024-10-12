@@ -142,6 +142,11 @@ Aquí puedes acceder a los [documentos](https://github.com/LiamSaboridoSueiro/Me
 
  He estado desarrollando el robot Kantam, en principio se moverá con orugas y tendrá una funcionalidad especial: ¡puede disparar un puño desde su brazo usando un mecanismo de resorte! Mi idea es que sea radiocontrolado, por lo que estoy integrando componentes para poder controlar tanto el movimiento como el disparo de manera remota. He estado explorando varias opciones para hacer realidad tanto el disparo del puño como la movilidad del robot.
 
+ ![image](https://github.com/user-attachments/assets/dd4f94d4-6f64-4d2e-936c-6c50c2618288)
+ ![image](https://github.com/user-attachments/assets/5407e1c2-6388-4c02-b484-7f50adcf42cc)
+
+
+
 ### Componentes y Conceptos que he considerado
 
 - **Microcontrolador (ESP32)**  
@@ -186,6 +191,11 @@ Después, trabajamos en figuras como un triángulo rectángulo, donde aprendimos
 Para cerrar, hicimos varios ejercicios para reforzar estas técnicas y practicar el acotado de piezas en 2D. La idea es mejorar nuestra precisión en el diseño y poder exportar planos listos para impresión o documentación. Una pena que en esta sesión no hubiera retos...
 
 ## Empezando a programar la ESP32
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/0aabe8d8-da95-4fd8-855f-fa8d68665c81" alt="imagen">
+</div>
+
 
 Hoy me puse manos a la obra con la configuración para programar la **ESP32**. La idea era dejar todo listo para poder cargar y probar el clásico “Hola Mundo” en el microcontrolador. Para ello, instalé **PlatformIO** como extensión en Visual Studio Code, que facilita bastante el trabajo con este tipo de placas.
 
