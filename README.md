@@ -33,6 +33,7 @@
 - [Primer día](#primer-día)
 - [Avanzando en el proyecto final](#avanzando-en-el-proyecto-final)
   * [Componentes y Conceptos que He Considerado](#componentes-y-conceptos-que-he-considerado)
+- [Empezando a programar la ESP32](#empezando-a-programar-la-esp32)
 
 </details>
 
@@ -183,6 +184,13 @@ Después, trabajamos en figuras como un triángulo rectángulo, donde aprendimos
 
 ### Ejercicios
 Para cerrar, hicimos varios ejercicios para reforzar estas técnicas y practicar el acotado de piezas en 2D. La idea es mejorar nuestra precisión en el diseño y poder exportar planos listos para impresión o documentación. Una pena que en esta sesión no hubiera retos...
+
+## Empezando a programar la ESP32
+
+Hoy me puse manos a la obra con la configuración para programar la **ESP32**. La idea era dejar todo listo para poder cargar y probar el clásico “Hola Mundo” en el microcontrolador. Para ello, instalé **PlatformIO** como extensión en Visual Studio Code, que facilita bastante el trabajo con este tipo de placas.
+
+Para no perderme en el proceso, seguí [este video de YouTube](https://youtu.be/tc3Qnf79Ny8?si=LDuCUOu9fi1D89gF), donde explican cómo preparar todo el entorno. Después de tener todo configurado, pude cargar el "Hola Mundo" en la ESP32 y verificar que el código se ejecutaba bien. Con esto ya tengo el entorno listo para empezar a programar la ESP32 en serio...
+
 
 
 
