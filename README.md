@@ -24,6 +24,11 @@
    * [Dibujos con líneas verticales y horizontales](#dibujos-con-líneas-verticales-y-horizontales)
    * [Dibujos con líneas en diferentes orientaciones](#dibujos-con-líneas-en-diferentes-orientaciones)
    * [Ejercicios](#ejercicios)
+ - [L10: Garras mecánicas](#l10-garras-mecánicas)
+  * [Método de inspiración](#método-de-inspiración)
+  * [Diseño de la garra](#diseño-de-la-garra)
+  * [Reto](#reto)
+
 
 </details>
 
@@ -34,6 +39,7 @@
 - [Avanzando en el proyecto final](#avanzando-en-el-proyecto-final)
   * [Componentes y Conceptos que He Considerado](#componentes-y-conceptos-que-he-considerado)
 - [Empezando a programar la ESP32](#empezando-a-programar-la-esp32)
+- [Probando motores](#probando-motores)
 
 </details>
 
@@ -201,6 +207,29 @@ Hoy me puse manos a la obra con la configuración para programar la **ESP32**. L
 
 Para no perderme en el proceso, seguí [este video de YouTube](https://youtu.be/tc3Qnf79Ny8?si=LDuCUOu9fi1D89gF), donde explican cómo preparar todo el entorno. Después de tener todo configurado, pude cargar el "Hola Mundo" en la ESP32 y verificar que el código se ejecutaba bien. Con esto ya tengo el entorno listo para empezar a programar la ESP32 en serio...
 
+## L10: Garras mecánicas
+
+Hoy empezamos con algo nuevo: el diseño de garras mecánicas. Vimos cómo funcionan las garras sencillas y cuáles son los pasos para diseñar una propia. Utilizamos el “método de inspiración”, que se basa en observar mecanismos de la naturaleza para luego simplificarlos y crear algo similar.
+
+### Método de inspiración
+Primero, buscamos inspiración en la naturaleza, que tiene un montón de ejemplos útiles para diseñar garras. Después, elegimos un mecanismo simple (en este caso, nuestra propia mano) y analizamos sus partes clave para poder replicarlas. La idea es quedarnos solo con lo esencial y luego usar esa base para crear una versión simplificada y funcional.
+
+### Diseño de la garra
+Empezamos a diseñar nuestra propia garra inspirándonos en la función de pinza de la mano. Nos centramos en los dos dedos básicos de una pinza: el índice como móvil y el pulgar como fijo. Luego, calcamos el movimiento de la mano con Inkscape, sacando puntos importantes como articulaciones y extremos para entender mejor el mecanismo.
+
+### Reto
+Al final de la sesión, nos propusieron un reto: diseñar nuestra propia pinza siguiendo el método de inspiración. No tuve tiempo de hacerlo en casa, ya que estuve aprovechando para avanzar con el proyecto final, ¡pero espero retomarlo pronto!
+
+
+## Probando motores
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f3933020-4019-432e-96c0-70f7fc56b592" alt="imagen">
+</div>
+
+Hoy avancé con el proyecto final y estuve aprendiendo a controlar tanto un servo como un motor DC usando la ESP32. Para el motor DC, utilicé un driver **L293D**, que me permite cambiar la dirección del motor fácilmente. Conecté el motor amarillo al L293D y configuré la ESP32 para controlar su giro en ambas direcciones. Esto me dio bastante flexibilidad para ajustar el movimiento según se necesite.
+
+También logré controlar un servo, experimentando con diferentes ángulos para ver cómo respondería. Esta práctica con el servo y el motor DC me va a ayudar a tener el control necesario para el movimiento y las funciones del robot. Ahora tengo el driver y los motores funcionando bien con la ESP32, lo cual es un gran paso para el proyecto.
 
 
 
