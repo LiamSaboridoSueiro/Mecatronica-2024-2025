@@ -25,9 +25,9 @@
    * [Dibujos con líneas en diferentes orientaciones](#dibujos-con-líneas-en-diferentes-orientaciones)
    * [Ejercicios](#ejercicios)
  - [L10: Garras mecánicas](#l10-garras-mecánicas)
-  * [Método de inspiración](#método-de-inspiración)
-  * [Diseño de la garra](#diseño-de-la-garra)
-  * [Reto](#reto)
+   * [Método de inspiración](#método-de-inspiración)
+   * [Diseño de la garra](#diseño-de-la-garra)
+   * [Reto](#reto)
 
 
 </details>
