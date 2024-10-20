@@ -28,7 +28,7 @@
    * [Método de inspiración](#método-de-inspiración)
    * [Diseño de la garra](#diseño-de-la-garra)
    * [Reto](#reto)
- - [L11: Estructuras mecánicas (II)](#l3-estructuras-mecánicas-ii)
+ - [L11: Estructuras mecánicas (II)](#l11-estructuras-mecánicas-ii)
    * [Pinzas simples](#pinzas-simples)
    * [Pinzas simétricas](#pinzas-simétricas)
    * [Tiempo de proyecto](#tiempo-de-proyecto)
