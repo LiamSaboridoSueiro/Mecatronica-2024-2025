@@ -28,6 +28,10 @@
    * [Método de inspiración](#método-de-inspiración)
    * [Diseño de la garra](#diseño-de-la-garra)
    * [Reto](#reto)
+ - [L11: Estructuras mecánicas (II)](#l3-estructuras-mecánicas-ii)
+  * [Pinzas simples](#pinzas-simples)
+  * [Pinzas simétricas](#pinzas-simétricas)
+  * [Tiempo de proyecto](#tiempo-de-proyecto)
 
 
 </details>
@@ -40,6 +44,9 @@
   * [Componentes y Conceptos que He Considerado](#componentes-y-conceptos-que-he-considerado)
 - [Empezando a programar la ESP32](#empezando-a-programar-la-esp32)
 - [Probando motores](#probando-motores)
+- [Conectando el mando PS4 a la ESP32](#conectando-el-mando-ps4-a-la-esp32)
+  * [Pasos para realizar la configuración](#pasos-para-realizar-la-configuración)
+  * [Funcionamiento final](#funcionamiento-final)
 
 </details>
 
@@ -231,7 +238,50 @@ Hoy avancé con el proyecto final y estuve aprendiendo a controlar tanto un serv
 
 También logré controlar un servo, experimentando con diferentes ángulos para ver cómo respondería. Esta práctica con el servo y el motor DC me va a ayudar a tener el control necesario para el movimiento y las funciones del robot. Ahora tengo el driver y los motores funcionando bien con la ESP32, lo cual es un gran paso para el proyecto.
 
+## L11: Estructuras mecánicas (II)
 
+Hoy estuvimos viendo el diseño y funcionamiento de **pinzas mecánicas** simples. Lo que hicimos fue observar cómo funcionan nuestras propias manos, y luego pasarlo a un diseño usando **Sketcher en FreeCAD** para entender mejor cómo funcionan las pinzas mecánicas.
 
+### Pinzas simples
+
+Empezamos con una **pinza simple**, observando el movimiento de los dedos y sacando un diseño en 2D con **Inkscape**. Luego lo importamos a FreeCAD para darle volumen y convertirlo en un diseño 3D. Las articulaciones las hicimos con un **tornillo M3x12** y una tuerca autoblocante.
+
+### Pinzas simétricas
+
+Después vimos las **pinzas simétricas**, donde los dos dedos se mueven al mismo tiempo. Para eso, usamos engranajes que permiten un movimiento coordinado. Implementamos un diseño básico con engranajes para ver cómo funciona este tipo de pinza.
+
+### Tiempo de proyecto
+
+No me dio tiempo a hacer los retos de hoy porque estuve a tope con el **proyecto final**, avanzando en el control del mando PS4 y probando los motores. Pero voy viendo buenos progresos con todo eso.
+
+## Conectando el mando PS4 a la ESP32
+
+Estuvimos pensando en cómo controlar el robot, y después de barajar varias opciones (como una app móvil por Bluetooth o WiFi), decidimos que lo más intuitivo y práctico era hacerlo con un mando de PS4. Esto también le da un toque de "robot de juguete", que nos gustó bastante. Al buscar código por internet, encontramos que usar un mando con la ESP32 mediante la librería **BluePad32** era mucho más sencillo y versátil.
+
+### Pasos para realizar la configuración
+
+1. **Instalación de librerías y configuración**:  
+   Lo primero fue instalar los gestores de placas para **ESP32** y **BluePad32** en el **Arduino IDE**. Agregamos las URLs necesarias en las preferencias del IDE para tener acceso a las librerías. Luego instalamos las placas correspondientes: **ESP32 by Expressive Systems** y **BluePad32**.
+
+2. **Elegir la placa**:  
+   Seleccionamos la placa correcta, en nuestro caso la **DOIT ESP32 Devkit V1**, que es bastante común si compras en Amazon o sitios similares.
+
+3. **Subir el código de ejemplo**:  
+   Utilizamos un sketch de ejemplo de **BluePad32** que venía bastante completo. El código tiene tres secciones clave:
+   - **dump gamepad**: Muestra en el monitor serie los botones del mando y sus valores.
+   - **process gamepad**: Aquí es donde añadimos el código para activar los motores y LEDs.
+   - **setup**: Definimos los pines del ESP32 y conectamos los servos y LEDs.
+
+4. **Probar y mapear los botones**:  
+   Una vez que conectamos el mando al ESP32 y abrimos el monitor serie, fuimos mapeando los botones. Esto nos permitió asignar cada botón o joystick a una función del robot, como mover un motor o encender un LED.
+
+5. **Control de componentes**:  
+   Asignamos cada botón y joystick a una acción específica. Por ejemplo, uno de los botones enciende el LED y los joysticks controlan los motores. Tras varias pruebas, logramos que el mando y la ESP32 trabajaran juntos sin problemas.
+
+Nos costó un poco controlar los dos motores a la vez porque el cableado era un lío y tuvimos que rehacerlo como 5 veces. Pero al final, con el controlador **L293D** (que es el más pequeño que tenemos), conseguimos que ambos motores funcionaran al mismo tiempo. Estuvimos varios días entre configuraciones del mando y los motores, pero finalmente lo hicimos funcionar.
+
+### Aquí dejamos cómo quedó funcionando:
+
+https://github.com/user-attachments/assets/ec388d40-a87c-4168-a044-f4b63a985d88
 
 
