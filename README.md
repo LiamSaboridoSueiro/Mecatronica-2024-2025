@@ -32,7 +32,7 @@
    * [Pinzas simples](#pinzas-simples)
    * [Pinzas simétricas](#pinzas-simétricas)
    * [Tiempo de proyecto](#tiempo-de-proyecto)
- - [L3: Estructuras mecánicas (II)](#l3-estructuras-mecánicas-ii)
+ - [S3: Estructuras mecánicas (II)](#s3-estructuras-mecánicas-ii)
    * [Pinzas simples](#pinzas-simples)
    * [Pinzas simétricas](#pinzas-simétricas)
    * [reto loco](#reto-loco)
@@ -289,7 +289,7 @@ Nos costó un poco controlar los dos motores a la vez porque el cableado era un 
 https://github.com/user-attachments/assets/ec388d40-a87c-4168-a044-f4b63a985d88
 
 
-## L3: Estructuras mecánicas (II)
+## S3: Estructuras mecánicas (II)
 
 ### Pinzas simples
 En esta sección nos enfocamos en el diseño y funcionamiento de una pinza mecánica básica. Primero analizamos los elementos clave de la mecánica de agarre, inspirándonos en el funcionamiento de nuestra mano. Luego, diseñamos las piezas en 2D para crear la estructura de la pinza y la importamos a FreeCAD, donde le damos volumen y forma en 3D. Aquí también abordamos cómo identificar y colocar el eje de articulación para que el movimiento sea fluido y efectivo.
