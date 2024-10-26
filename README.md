@@ -36,6 +36,10 @@
    * [Pinzas simples](#pinzas-simples)
    * [Pinzas simétricas](#pinzas-simétricas)
    * [reto loco](#reto-loco)
+ - [L13: PCBs: Placas de circuito impreso](#l13-pcbs-placas-de-circuito-impreso)
+   * [Introducción a los PCB](#introducción-a-los-pcb)
+   * [Componentes y conexiones](#componentes-y-conexiones)
+   * [Diseño y herramientas](#diseño-y-herramientas)
 
 
 </details>
@@ -305,4 +309,15 @@ El reto de esta sesión es diseñar nuestra propia pinza, inspirándonos en las 
 </div>
 
 Puedes acceder al [documento del reto aquí](https://github.com/LiamSaboridoSueiro/Mecatronica-2024-2025/tree/main/Docs/S3%20Estructuras%20mecanicas).
+
+## L13: PCBs: Placas de circuito impreso
+
+### Introducción a los PCB
+En esta clase vimos qué son las placas de circuito impreso (PCBs) y por qué son tan importantes para llevar nuestros proyectos de prototipos con cables a algo más profesional y sólido. Un PCB permite ordenar los componentes y conexiones, mejorando tanto la estética como el rendimiento eléctrico del diseño.
+
+### Componentes y conexiones
+El profe explicó cómo se organizan los componentes en una PCB, donde se colocan todos los elementos (como resistencias y condensadores) y cómo las pistas hacen las conexiones necesarias entre ellos. Nos insistió en pensar bien las rutas de las conexiones para evitar interferencias y problemas de espacio.
+
+### Diseño y herramientas
+Aquí aprendimos sobre las herramientas de diseño de PCB, como KiCad, que permite crear esquemáticos y transformarlos en el diseño de la placa. El profe comentó la importancia de la precisión en esta etapa, y también cómo generar los archivos de producción, como los gerbers, para enviar a fabricar la placa en un servicio profesional.
 
