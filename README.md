@@ -32,6 +32,10 @@
    * [Pinzas simples](#pinzas-simples)
    * [Pinzas simétricas](#pinzas-simétricas)
    * [Tiempo de proyecto](#tiempo-de-proyecto)
+ - [L3: Estructuras mecánicas (II)](#l3-estructuras-mecánicas-ii)
+   * [Pinzas simples](#pinzas-simples)
+   * [Pinzas simétricas](#pinzas-simétricas)
+   * [reto loco](#reto-loco)
 
 
 </details>
@@ -284,4 +288,21 @@ Nos costó un poco controlar los dos motores a la vez porque el cableado era un 
 
 https://github.com/user-attachments/assets/ec388d40-a87c-4168-a044-f4b63a985d88
 
+
+## L3: Estructuras mecánicas (II)
+
+### Pinzas simples
+En esta sección nos enfocamos en el diseño y funcionamiento de una pinza mecánica básica. Primero analizamos los elementos clave de la mecánica de agarre, inspirándonos en el funcionamiento de nuestra mano. Luego, diseñamos las piezas en 2D para crear la estructura de la pinza y la importamos a FreeCAD, donde le damos volumen y forma en 3D. Aquí también abordamos cómo identificar y colocar el eje de articulación para que el movimiento sea fluido y efectivo.
+
+### Pinzas simétricas
+Las pinzas simétricas permiten que ambos "dedos" de la pinza se muevan al mismo tiempo y en direcciones opuestas, lo que ayuda a mejorar la precisión del agarre. Vimos cómo implementarlas con un modelo alámbrico y en FreeCAD, utilizando engranajes para crear una transmisión de movimiento simétrica. También exploramos ejemplos prácticos como la pinza del PrintBot Beetle y la Ultimate Gripper, que aplican esta simetría en diseños de robots.
+
+### Reto loco
+El reto de esta sesión es diseñar nuestra propia pinza, inspirándonos en las estructuras vistas o implementando un mecanismo de paralelogramo para un agarre más preciso. Aquí muestro mi intento de mano!
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/f7f6e90b-4352-4d7c-99f4-72690a710411" alt="imagen">
+</div>
+
+Puedes acceder al [documento del reto aquí](https://github.com/LiamSaboridoSueiro/Mecatronica-2024-2025/tree/main/Docs/S3%20Estructuras%20mecanicas).
 
